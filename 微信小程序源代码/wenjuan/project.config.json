@@ -1,0 +1,62 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "autoAudits": false,
+        "checkInvalidKey": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "condition": false
+    },
+    "compileType": "miniprogram",
+    "libVersion": "3.2.2",
+    "appid": "wx3bd403c4bce6bd46",
+    "projectname": "wenjuan",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "我的问卷",
+                    "pathName": "pages/index/index",
+                    "query": "currentPage=1",
+                    "scene": null
+                },
+                {
+                    "name": "分享进入",
+                    "pathName": "pages/wenjuan/detailed",
+                    "query": "id=24",
+                    "scene": 1007
+                },
+                {
+                    "name": "数据分析页面",
+                    "pathName": "pages/wenjuan/analysis/analysis",
+                    "query": "id=27",
+                    "scene": null
+                },
+                {
+                    "name": "办复投票",
+                    "pathName": "pages/vote/detailed",
+                    "query": "id=15",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}
